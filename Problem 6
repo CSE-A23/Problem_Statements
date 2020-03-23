@@ -1,0 +1,86 @@
+Seema has a lot of bangles all stored in a box. Bangles are of different size, colors and make. She has a habit of buying bangles as pairs. She wants to pile them by sizes in such a way that the maximum sized the bangles are in the middle and the following sizes will have the placed beside each bangle. For eg four bangles with sizes 7 (one pair), 8 (one pair) will be placed as 7, 8, 8, 7. If there are more one pair of bangles of same size , the bangles of same color should not be placed in the same side. For eg: 6 blue and 6 yellow must be placed as 6B, 6Y, 7R, 8P, 8P, 7R, 6Y, 6B.  Help Seema display the bangle properties in the piled order. 
+
+Note: 
+Must use array of objects
+The same size bangles must be arranged with Lexicographical order of color; in the above example Y>B so it is placed before blue bangle. Check must be done that the bangle pairs never have same attributes. 
+
+The input is as 
+T>0 – no of pairs of bangles
+Next T inputs would be properties of each pair of bangles
+
+Sample input output
+
+Sno
+Input
+Output
+
+1
+4
+7  ‘R’  “Glass”
+2 ‘Y’   “Mud”
+4 ‘P’  “Steel”
+9 ‘O’  “Gold”
+2, ‘Y’, “Mud”
+4, ‘P’, “Steel”
+7, ‘R’, “Glass”
+9, ‘O’, “Gold”
+9, ‘O’, “Gold”
+7, ‘R’, “Glass”
+4, ‘P’, “Steel”
+2, ‘Y’, “Mud”
+
+2
+1
+5 ‘G’ “Platinum”
+5, ‘G’, “Platinum”
+5, ‘G’, “Platinum”
+
+3
+2
+5 ‘G’ “Platinum”
+5 ‘G’ “Platinum”
+Invalid Input
+
+
+Hidden
+
+Sno
+Input
+Output
+
+1
+3
+7  ‘R’  “Glass”
+2 ‘Y’   “Mud”
+2 ‘Y’   “Mud”
+Invalid Input
+
+2
+5
+7  ‘R’  “Glass”
+2 ‘Y’   “Mud”
+4 ‘P’  “Steel”
+9 ‘O’  “Gold”
+5 ‘G’  “Brass”
+2, ‘Y’, “Mud”
+4, ‘P’, “Steel”
+5 ‘G’  “Brass”
+7, ‘R’, “Glass”
+9, ‘O’, “Gold”
+9, ‘O’, “Gold”
+7, ‘R’, “Glass”
+5 ‘G’  “Brass”
+4, ‘P’, “Steel”
+2, ‘Y’, “Mud”
+
+3
+3
+7 ‘R’ “Glass”
+7 ‘Y’ “Mud”
+9 ‘P’ “Steel”
+7, ‘R’, “Glass”
+7, ‘Y’, “Mud”
+9, ‘P’, “Steel”
+9, ‘P’, “Steel”
+7, ‘Y’, “Mud”
+7, ‘R’, “Glass”
