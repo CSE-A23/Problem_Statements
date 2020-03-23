@@ -1,0 +1,72 @@
+Write a program to create MYDATE objects with day, month and year as attributes (all strings/char arrays).
+Use the operator “<” to check the first and last letter of month 
+return 2 if both are equal
+1 if anyone is equal 
+0 if none is equal
+
+Note: Must use operator overloading and string manipulations
+
+Input Format
+First line, no of object pairs to be compared
+Next line will be attributes of the objects to be compared
+
+Sno
+Input
+Output
+
+1
+1
+12 January 2000
+09 May 2129 
+1 [Explanation LAST LETTER EQUAL]
+
+2
+3
+12 January 2000
+15 July 2009 
+30 January 2000
+11 May 2129 
+07 August 2000
+09 May 2129 
+2
+1
+0
+
+
+Hidden Test Cases
+
+Sno
+Input
+Output
+
+1
+1
+12 January 2000
+12 January 2000
+2
+
+2
+2
+12 xzsy 2000
+15 abscy 2009 
+03 April 1900
+01 June 1927  
+1
+0
+
+3
+4
+12 October 2000
+15 December 2009 
+30 June 2000
+11 November 2129  
+07 May 2000
+09 July 2129 
+30 July 2000
+11 June 1977  
+1
+1
+2
+1
+
+
