@@ -1,17 +1,32 @@
-class Test {
+Create a class Student with attributes - Name, RegNo, Chemistry, Maths & Physics.
 
-    int x;
+Create an array of students.
 
-};
+Find the student who has scored highest total marks. 
 
-int main()
+Note: Check if the marks are in the range of 0 to 100; Display a error message if does not fall in the range
 
-{
+Input Format: 
 
-  Test t;
+N - No of Students
 
-  cout << t.x;
+Next would be details of each student
 
-  return 0;
+sample input :
 
-}
+3
+Kavitha
+23
+34
+100
+100
+Rajini
+45
+89
+99
+78
+Aditya
+1
+-4
+89
+78
