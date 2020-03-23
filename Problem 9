@@ -1,0 +1,5 @@
+Kannan is father of Ram and Ram is father of Naresh. Each of them have assets which are 
+Owned only by them (Private)
+Shared to their heirs  (Protected)
+Given off to their heirs  (Overridden)
+Write a program to illustrate the constructors & destructors flows and access specifiers.
