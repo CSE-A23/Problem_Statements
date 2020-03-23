@@ -1,0 +1,38 @@
+Create a class MYTIME with attributes hrs, mins and secs. 
+
+Using friend function add two MYTIME objects , overloading + operator.
+
+Use the unary ++ operator to increment all the attributes by 5 without a friend function
+
+Note: If sum of hrs is over 24 print the output as DAY
+
+Input Format
+
+Line 1 : 3 integers denoting the attributes of object 1
+
+Line 2 : 3 integers denoting the attributes of object 2
+
+sample input :
+
+12 30 45
+1 20 20
+sample output :
+
+Sum = 13 51 5
+Increment of Time Object 2 = 6 25 25
+sample input :
+
+12 30 45
+1 30 20
+sample output :
+
+Sum = 14 1 5
+Increment of Time Object 2 = 6 35 25
+sample input :
+
+12 30 15
+11 40 0
+sample output :
+
+Sum = DAY
+Increment of Time Object 2 = 16 45 5
