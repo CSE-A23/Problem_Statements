@@ -1,0 +1,4 @@
+Kannan decided to encrypt the love letter before sending to Kavya. First he writes the letter in normal English. Then he changes every character in the following manner;
+First char+1, Second char+2 etc …
+For eg: cutie = dwwmj
+Help him convert the love letter. Hint: File copy and char(ord(‘a’)+1) = ‘b’ 
