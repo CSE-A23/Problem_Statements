@@ -1,0 +1,1 @@
+Write a program to create DIST objects with Kilometer and meters as attributes. The user will only give meters and the same must be converted to Kilometers and Meters. Write appropriate behaviors to add and subtract two DIST objects using friend functions
