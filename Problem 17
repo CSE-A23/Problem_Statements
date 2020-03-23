@@ -1,0 +1,29 @@
+Given a set of strings. List all the strings with length 2. Then list all the strings which starts with "ra"
+
+If both the conditions are failing then print None.
+
+Note: All strings are in small letters.
+
+Input Format
+
+N - No of strings
+
+Next N lines with a string in each line
+
+Output Format
+
+List of strings with length 2
+
+List of Strings that start with "ra"
+
+sample input :
+
+3
+rajini
+ravi
+is
+sample output :
+
+is
+rajini
+ravi
