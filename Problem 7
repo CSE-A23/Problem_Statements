@@ -1,0 +1,50 @@
+You are building a system to find super power of a given number. If N and P is the number and P is the power to be calculated, super power is sum of power of every digit in N. For eg: if N =1453 and P =2 then super power = (1)2 + (4)2 + (5)2 + (3)2 = 51. Create a function SuperPow(int N, int P). This function takes two integers, and, as parameters and finds super power. If either N or P is negative, then the method must throw an exception which says "Super Power is only of Positive Numbers". Also, if both P and N are zero, then the method must throw an exception which says "Zero cant be a Super Power".
+
+Note: Must use exception handling
+
+Input Format
+Each line of the input contains two integers, N and P. 
+
+Sno
+Input
+Output
+
+1
+123, -1
+Super Power is only of Positive Numbers
+
+2
+267, 1
+15
+
+3
+22,0
+0
+
+4
+0,0
+Zero cant be a Super Power
+
+
+Hidden
+
+Sno
+Input
+Output
+
+1
+-123, -1
+Super Power is only of Positive Numbers
+
+2
+-267, 1
+Super Power is only of Positive Numbers
+
+3
+453,2
+50
+
+4
+-0,-0
+Zero cant be a Super Power
+
